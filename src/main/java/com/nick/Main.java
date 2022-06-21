@@ -15,7 +15,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class Main {
 
-    private static final String TOKEN = "5365898334:AAFqoFFfuIbUR06uD9RnkPjs7Tw-fGqCq4o";
+    private static final String TOKEN = "";
     private static final ConcurrentHashMap<PomodoroBot.Timer, Long> userTimers = new ConcurrentHashMap();
 
     public static void main(String[] args) throws TelegramApiException {
